@@ -34,7 +34,7 @@ class Graph(object):
     plt.ion()
     plt.axis('equal')
     fig = plt.figure()
-    for n in range(56):  # 为什么是56
+    for n in range(56):  
         print(n)
         num = len(data)
         nodes = list(range(num))
@@ -341,4 +341,5 @@ class Graph(object):
         n += 1
     print(WW)
     plt.ioff()
+
 
